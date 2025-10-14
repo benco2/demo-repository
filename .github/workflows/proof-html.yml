@@ -7,6 +7,4 @@ jobs:
     runs-on: 
       group: bitrise-runner-group
     steps:
-      - uses: anishathalye/proof-html@v1.1.0
-        with:
-          directory: ./
+      - run: echo "hello world"
