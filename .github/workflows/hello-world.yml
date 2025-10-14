@@ -3,8 +3,6 @@ on:
   push:
   workflow_dispatch:
 jobs:
-  build:
-    runs-on: 
-      group: bitrise-runner-group
+  build: ubuntu-latest
     steps:
       - run: echo "hello world"
