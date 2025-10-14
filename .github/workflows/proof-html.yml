@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: bitrise-runner-group
+    runs-on: 
+	group: bitrise-runner-group
     steps:
       - uses: anishathalye/proof-html@v1.1.0
         with:
