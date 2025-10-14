@@ -5,7 +5,7 @@ on:
 jobs:
   build:
     runs-on: 
-	group: bitrise-runner-group
+      group: bitrise-runner-group
     steps:
       - uses: anishathalye/proof-html@v1.1.0
         with:
