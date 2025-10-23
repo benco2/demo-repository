@@ -1,0 +1,10 @@
+name: Hello World
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  build: 
+    runs-on:
+      group: Bitrise_GH_Universe_Runners
+    steps:
+      - run: echo "hello world"
